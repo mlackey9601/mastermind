@@ -5,10 +5,15 @@ const logger = require('morgan');
 
 const app = express();
 
+require('dotenv').config();
+require('./config/database');
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
+
+app.use('/api', require('./routes/api/users'));
 
 app.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
@@ -17,5 +22,5 @@ app.get('/*', (req, res) => {
 const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
-    console.log(`React Mastermind is running on port ${port}...`)
+    console.log(`Mastermind is running on port ${port}...`)
 });

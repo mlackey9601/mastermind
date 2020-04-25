@@ -29,6 +29,24 @@
   opacity: 0.85;
 }
 
+.Settings-level-btn {
+  background: rgb(244,244,244);
+  background: linear-gradient(180deg, rgba(244,244,244,1) 0%, rgba(211,211,211,1) 100%);
+}
+
+.Settings-level-btn:hover {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+}
+
 .Settings-cancel {
-  width: 100px;
+  background: rgb(244,244,244);
+  background: linear-gradient(180deg, rgba(244,244,244,1) 0%, rgba(211,211,211,1) 100%);
+  width: 85px;
+  font-size: 14px;
+}
+
+.Settings-cancel:hover {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
 }

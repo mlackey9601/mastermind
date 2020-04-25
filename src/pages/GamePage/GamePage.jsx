@@ -27,7 +27,7 @@ const GamePage = (props) => {
             handleTimerUpdate={props.handleTimerUpdate}
             isTiming={props.isTiming}
           />
-          <Link className='btn btn-default GamePage-link-margin' to='/settings'>Difficulty</Link>
+          <Link className='button btn btn-default GamePage-link-margin' to='/settings'>Difficulty</Link>
           <NewGameButton handleNewGameClick={props.handleNewGameClick}/>
         </div>
       </div>

@@ -1,3 +1,6 @@
 .button {
   padding: 2px 6px;
+  background: rgb(223,223,223);
+  background: linear-gradient(180deg, rgba(223,223,223,1) 0%, rgba(155,155,155,1) 100%);
+  outline: none;
 }

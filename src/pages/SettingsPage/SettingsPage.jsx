@@ -38,7 +38,7 @@ const SettingsPage = (props) => {
 
   return (
     <div className='Settings'>
-      <header className='header-footer'>Set Difficulty Level</header>
+      <header className='header-footer'>S E T &nbsp; D I F F I C U L T Y</header>
       <div>
         {levels}
       </div>

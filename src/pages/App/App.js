@@ -5,9 +5,9 @@ import { Route, Switch } from 'react-router-dom';
 import SettingsPage from '../SettingsPage/SettingsPage';
 
 const colors = {
-  Easy: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD'],
-  Moderate: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD', '#B7D968'],
-  Difficult: ['#7CCCE5', '#FDE47F', '#E04644', '#B576AD', '#B7D968', '#555E7B']
+  Easy: ['#00f7ff', '#f9ff00', '#ff0057', '#d900ff'],
+  Moderate: ['#00f7ff', '#f9ff00', '#ff0057', '#d900ff', '#ff9600'],
+  Difficult: ['#00f7ff', '#f9ff00', '#ff0057', '#d900ff', '#ff9600', '#00ff27']
 };
 
 class App extends Component {

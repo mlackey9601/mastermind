@@ -8,7 +8,7 @@ const ColorPicker = (props) => (
         key={color}
         className={styles.button}
         style={{
-          backgroundColor: props.selColorIdx === idx ? 'white' : color,
+          backgroundColor: props.selColorIdx === idx ? '#ffffff' : color,
           borderColor: color
         }}
         onClick={() => props.handleColorSelection(idx)}

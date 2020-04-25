@@ -15,16 +15,16 @@ const GuessScore = ({ score }) => {
 
   let pegStyles = {
     'P': {
-      borderColor: 'black',
-      backgroundColor: 'black'
+      borderColor: '#000000',
+      backgroundColor: '#000000'
     },
     'A': {
-      borderColor: 'black',
-      backgroundColor: 'white'
+      borderColor: '#000000',
+      backgroundColor: '#ffffff'
     },
     'I': {
-      borderColor: 'white',
-      backgroundColor: 'lightgrey'
+      borderColor: '#ffffff',
+      backgroundColor: '#8f8f8f'
     }
   };
   

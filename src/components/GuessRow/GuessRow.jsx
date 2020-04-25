@@ -8,7 +8,7 @@ const GuessRow = (props) => (
   <div className={styles.GuessRow}>
     <div
       className={styles.rowNum}
-      style={{color: props.currentGuess ? 'black' : 'lightgrey'}}
+      style={{color: props.currentGuess ? '#ffffff' : '#616161'}}
     >
       {props.rowIdx + 1}
     </div>

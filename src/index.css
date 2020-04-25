@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(78,78,78);
+  background: linear-gradient(180deg, rgba(78,78,78,1) 0%, rgba(34,34,34,1) 100%);
 }
 
 code {
@@ -31,7 +33,7 @@ button:focus, .btn:focus {
   height: 50px;
   padding: 10px;
   margin: 15px 0;
-  color: grey;
+  color: rgb(225, 225, 225);
   font-size: 18px;
   text-align: center;
 }

@@ -34,5 +34,5 @@
 
 - [x] ~~Add a difficulty setting~~
 - [x] ~~Restyle the app~~
-- [x] ~~Add a 'leaderboard'~~
+- [ ] Add a 'leaderboard'
 ***
